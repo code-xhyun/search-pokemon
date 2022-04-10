@@ -1,0 +1,29 @@
+{
+  "name": "search-pokemon",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devShHong/search-pokemon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devShHong/search-pokemon/issues"
+  },
+  "homepage": "https://github.com/devShHong/search-pokemon#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "ts-node": "^10.7.0"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "node-tesseract-ocr": "^2.2.1",
+    "request": "^2.88.2"
+  }
+}
